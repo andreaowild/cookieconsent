@@ -1620,7 +1620,7 @@
                      */
                     if(_inArray(accepted_categories, curr_script_category) > -1){
 
-                        curr_script.type = 'text/javascript';
+                        //curr_script.type = 'text/javascript';
                         curr_script.removeAttribute(_config.script_selector);
 
                         // get current script data-src
